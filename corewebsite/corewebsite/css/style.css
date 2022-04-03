@@ -1,0 +1,136 @@
+/* Homepage style.css starts */
+body{margin:0;}
+a{text-decoration:none;}
+.header {margin-top: 10px;margin-bottom: 10px;}
+.header ul.menu{float:right; list-style-type:none; padding:0px; margin-top: 25px;}
+.header ul.menu li{float:left; margin-right:10px;}
+.header ul.menu li:last-child{margin-right:0px;}
+.header ul.menu li a{color: #828282;cursor:pointer; font-size:16px; padding:8px;text-decoration: none;}
+.header ul.menu li a:hover{color:#fc9e00;}
+#search {margin-left: 50px; width: 150px;box-sizing: border-box;border: 2px solid #ccc;border-radius: 50px;font-size: 16px;background-color: white;background-image: url('searchicon.png');background-position: 10px 10px;background-repeat: no-repeat;padding: 12px 20px 12px 40px;-webkit-transition: width 0.4s ease-in-out;transition: width 0.4s ease-in-out;}
+#search:focus {width: 26%;}
+.main-content{min-height:100px; padding:0 0 50px;}
+.banner >img{margin-top:50px;margin-bottom:50px;}
+.heading1 {position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 75px;font-weight: bold;color: white;text-align: center;line-height: normal;width: 960px;margin-top: -70px;font-family: 'Lato', sans-serif;}
+.content1 {position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 25px;color: white;text-align: center;width: 900px;margin-top: 55px;font-family: 'Lato', sans-serif;}
+.total{text-align:center;margin-top:20px;margin-bottom:20px;padding:30px;}
+.total > div{background-color:#000; color:#fff; display:inline-block; font-size:70px; margin-right:4%; padding:50px; width:calc(47.8% - 40px);}
+.total > div:last-child{margin-right:0px;}
+.total .info1{background-color:#fc9e00;}
+.info1 > a{color: white;text-decoration: none;}
+.info2 > a{color: white;text-decoration: none;}
+.info1 > a:hover{cursor: pointer;}
+.info2 > a:hover{cursor: pointer;}
+.hire {text-align: center;font-size: 30px;font-weight: bold; margin-bottom: 50px;}
+.tabsmenu > ul{list-style-type: none;margin:0;padding: 0;text-decoration: none;float: left;width: 100%;font-size:20px;margin-bottom:50px;}
+.tabsmenu ul li{float: left;}
+.tabsmenu > ul li a{text-decoration:none;}
+.tabsmenu ul li{float:left;border:1px solid #eee;width:calc(25% - 1px);text-align:center;margin-left:-1px;margin-top:-1px;}
+.tabsmenu ul li a{color: #000;cursor: pointer; padding:50px; float: left; width: calc(100% - 100px);}
+.tabsmenu ul li a:hover{color:#fc9e00;}
+.tabsmenu ul li a span{float: left;height: 50px;overflow: hidden;line-height: 50px;width: 100%;}
+.button_container {text-align:center;margin-bottom:50px;}
+.btn_see {color:#fc9e00;padding:14px 28px;background-color:#fff;border: 2px solid #fc9e00;font-size:20px;width: 17%;}
+.btn_see:hover{color:#fff;background-color:#fc9e00;}
+.footer{background-color: #222222;float: left;width: 100%;}
+.top > div {color:#eaeaea;font-size:30px;margin-left: 60px;}
+.footermenu > ul {margin-left:0px;color:#eaeaea;list-style-type:none;width:100%;float:left;}
+.footermenu a{color:#eaeaea;text-decoration: none;}
+.footermenu a:hover{color:#fc9e00;}
+.footermenu ul li{margin-top:-16px;float: left;padding:20px;width:20%;}
+.about > ul{color:#eaeaea;background-color:#000;list-style-type:none;width:100%;float:left;margin:0;padding:0;text-align:center;}
+.about a{color:#eaeaea;text-decoration: none;}
+.about a:hover{color:#fc9e00;}
+.about ul li{margin-top:0;float:left;padding:20px;width:16%;}
+.social ul li{color:#fc9e00;font-size:26px;list-style-type: none;float: left;}
+.social a{color:#fc9e00;}
+/* Homepage style.css ends */
+
+
+/* Login style.css starts */
+ /* Bordered form */
+ #loginform {border: 3px solid #f1f1f1;background-color: #f1f1f1;border-radius:10px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {width: 100%;padding: 12px 20px;margin: 8px 0;display: inline-block;box-sizing: border-box;}
+
+/* Set a style for all buttons */
+.login {background-color: #fc9e00;color: white;padding: 8px 20px;margin: 8px 0;border: none;cursor: pointer;width: 100%;border-radius:.25rem;}
+
+/* Add a hover effect for buttons */
+button:hover {opacity: 0.8;}
+
+/* Center the avatar image inside this container */
+.imgcontainer {text-align: center;margin: 24px 0 12px 0;}
+
+/* Avatar image */
+img.avatar {width: 40%;border-radius: 50%;margin-top: -90px;}
+
+/* Add padding to containers */
+.container {padding: 16px;}
+
+/* The "Forgot password" text */
+span.psw {float: right;padding-top:16px;}
+.psw a{text-decoration: none;}
+.bottom_container{background-color: #666;}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {display: block;float: none;}
+    .cancelbtn {width: 100%;}
+} 
+#c2 {margin-top: 50px;}
+/* Login style.css ends */
+
+/* register style.css starts */
+.form-check-input{margin-top:10px; margin-left:0px;}
+.register-container{background-image: url("http://localhost/corewebsite/images/contactusbg.png");}
+#background{background-color: transparent;border-radius:10px; color: white;}
+.error {color:red; font-size:80%;}
+.input-error {border: 2px solid red;}
+/* #logo1 {text-align: center;color: skyblue;} */
+/* #logo h2{color: blue;} */
+#logo {
+    text-align: center;
+    color: blue;
+    
+}
+#logo img{width:150px;margin: 8px 0;}
+#insert {width:100px;}
+
+/* register style.css ends */
+
+/* account style.css starts */
+#dashboard{border: 3px solid #f1f1f1;background-color: #f1f1f1;border-radius:10px;}
+.avatar {width: 40%;border-radius: 50%;}
+.imgcontainer2 {text-align: center;margin: 24px 0 12px 0;}
+.list-group-item.active{background-color: #fc9e00;border-color: #fc9e00;}
+
+/* Center the avatar image inside this container */
+.imgcontainer {text-align: center;margin: 24px 0 12px 0;}
+/* Avatar image */
+img.avatar2 {width: 20%;border-radius: 50%;}
+/* account style.css ends */
+
+/* dashboard css starts */
+/* .list-group{background-color: #337ab7;} */
+
+/* edit profile style.css starts */
+#update_profile{width: 100px;}
+/* edit profile style.css ends */
+
+/* delete profile style.css starts */
+#delete{width: 100px;}
+/* delete profile style.css ends */
+
+/* changepassword style.css starts */
+#changepassword_container{border: 3px solid #f1f1f1;background-color: #f1f1f1;border-radius:10px;}
+.btn-primary{margin-bottom: 10px;}
+#update_password{width: 100px;}
+/* changepassword style.css ends */
+
+
+
+
+
+
